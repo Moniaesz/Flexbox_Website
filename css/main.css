@@ -329,7 +329,6 @@ footer {
   padding: 2px;
   color: #fff; }
   .small-footer p > a {
-    color: #E8954C;
     color: #f8d7b7;
     text-decoration: none; }
     .small-footer p > a:hover {
@@ -397,6 +396,10 @@ footer {
     width: 100%;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); } }
 
+@media screen and (min-width: 875px) and (max-width: 1488px) {
+  nav ul {
+    margin-left: 20%; } }
+
 @media screen and (min-width: 726px) and (max-width: 1210px) {
   .tile {
     width: 50%; }
@@ -448,7 +451,7 @@ footer {
     margin-bottom: 3.5rem;
     font-size: 15px; } }
 
-@media screen and (min-width: 1210px) {
+@media screen and (min-width: 1247px) {
   nav ul {
     margin-left: 30%; }
   aside img {
