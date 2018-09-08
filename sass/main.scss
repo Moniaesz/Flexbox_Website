@@ -46,13 +46,10 @@ nav ul {
   padding: 0;
   text-align: center;
   margin: 12px 0;
+  margin-top: -2%;
   transition: 1s;
   width: 100%;
   margin-left: 22%
-
-  li {
-
-  }
 }
 
 nav.white ul {
@@ -421,7 +418,7 @@ footer {
   font-size: 12px;
   background: #F5F5F5;
   background: #343436;
-  padding: 2px;
+  padding: 2% 5%;
   color: #fff;
 
     p > a {
@@ -494,10 +491,13 @@ footer {
 
 
 @media screen and (max-width: 874px) {
+  header {
+    height: 80px;
+  }
   .logo img {
     position: fixed;
     top:0;
-    height: 60px;
+    height: 50px;
     margin: 15px 25px;
   }
   nav ul {
@@ -521,6 +521,7 @@ footer {
     }
   }
   .showing {
+    margin-top: -2%;
     max-height: 35em;
     width: 100%;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
