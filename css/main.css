@@ -5,7 +5,8 @@ body {
   width: 100%;
   font-family: 'Raleway', Arial, sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  hyphens: none; }
 
 h3 {
   font-size: 25px; }
@@ -348,7 +349,7 @@ footer {
     width: 14em;
     height: 14em; }
   #o-doradcy p {
-    font-size: 16px; }
+    font-size: 17px; }
   .quote i {
     font-size: 30px; }
     .quote i:first-child {
@@ -358,7 +359,8 @@ footer {
     .quote-content p:last-child {
       font-size: 15px; }
   .quote-content {
-    padding: 1rem; }
+    padding: 1rem;
+    height: 17rem; }
   .info-tiles {
     flex-direction: column; }
   .tile {
@@ -368,7 +370,9 @@ footer {
   .mockup {
     display: none; }
   #google-map iframe {
-    padding: 3rem; } }
+    width: 85vw;
+    padding: 1.5rem;
+    padding-top: 0.5rem; } }
 
 @media screen and (max-width: 874px) {
   .logo img {
@@ -414,7 +418,7 @@ footer {
   .hero-text {
     padding-top: 10rem; }
   #o-firmie {
-    padding: 6rem 1.3rem;
+    padding: 4.5rem 1.3rem;
     text-align: center; }
     #o-firmie p {
       font-size: 17px; }
@@ -422,7 +426,7 @@ footer {
     width: 30%; }
   #o-doradcy {
     flex-direction: column;
-    padding: 6rem 3rem; }
+    padding: 4.5rem 3rem; }
     #o-doradcy article {
       width: 100%; }
     #o-doradcy aside {
@@ -432,12 +436,12 @@ footer {
   .zakres-uslug-content {
     padding: 2rem 2rem; }
   #zakres-uslug {
-    padding: 6rem 2.5rem; }
+    padding: 4.5rem 2.5rem; }
     #zakres-uslug ul {
       font-size: 16px;
       line-height: 2rem; }
   .info-tiles {
-    padding-bottom: 10%; }
+    padding-bottom: 15%; }
   .tile-card {
     padding: 25% 15%; }
   .parallax {

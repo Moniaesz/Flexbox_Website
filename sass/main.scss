@@ -7,6 +7,7 @@ body {
   font-family: 'Raleway', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  hyphens: none;
 }
 
 h3 {
@@ -452,7 +453,7 @@ footer {
     height: 14em;
   }
   #o-doradcy p {
-  font-size: 16px;
+    font-size: 17px;
   }
   .quote i {
     font-size:  30px;
@@ -470,6 +471,7 @@ footer {
   }
   .quote-content {
     padding: 1rem;
+    height: 17rem;
   }
   .info-tiles {
      flex-direction: column; 
@@ -484,7 +486,9 @@ footer {
     display: none;
   }
   #google-map iframe {
-    padding: 3rem;
+    width: 85vw;
+    padding: 1.5rem;
+    padding-top: 0.5rem;
   }
 }
 
@@ -551,7 +555,7 @@ footer {
   padding-top: 10rem;
   }
   #o-firmie {
-  padding: 6rem 1.3rem;
+  padding: 4.5rem 1.3rem;
   text-align: center;
     p {
       font-size: 17px;
@@ -562,7 +566,7 @@ footer {
   }
   #o-doradcy {
     flex-direction: column;
-    padding: 6rem 3rem;
+    padding: 4.5rem 3rem;
     article {
       width: 100%;
     }
@@ -577,14 +581,14 @@ footer {
     padding: 2rem 2rem;
   }
   #zakres-uslug {
-    padding: 6rem 2.5rem;
+    padding: 4.5rem 2.5rem;
     ul {
       font-size: 16px;
       line-height: 2rem;
     }
   }
   .info-tiles {
-    padding-bottom: 10%;
+    padding-bottom: 15%;
   }
   .tile-card {
     padding: 25% 15%;
