@@ -328,6 +328,8 @@ footer {
   background: #343436;
   padding: 2% 5%;
   color: #fff; }
+  .small-footer p {
+    opacity: 0.7; }
   .small-footer p > a {
     color: #f8d7b7;
     text-decoration: none; }
