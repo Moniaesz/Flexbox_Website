@@ -45,8 +45,7 @@ nav ul {
   color: #343436;
   padding: 0;
   text-align: center;
-  margin: 12px 0;
-  margin-top: -2%;
+  // margin: 12px 0;
   transition: 1s;
   width: 100%;
   margin-left: 22%
@@ -449,7 +448,7 @@ footer {
     width: 14em;
     height: 14em;
   }
-  #o-doradcy p {
+  #o-doradcy article p {
     font-size: 17px;
   }
   .quote i {
@@ -504,6 +503,7 @@ footer {
     max-height: 0px;
     background: #fff;
     margin-left: 0%;
+    margin-top: -2%;
     li {
       box-sizing: border-box;
       width: 100%;
