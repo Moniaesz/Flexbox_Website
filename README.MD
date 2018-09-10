@@ -1,9 +1,9 @@
-## WEBSITE FOR TAX ADVISORY COMPANY 
+## Website for Tax Advisory Company  
 
-This is my first commercial project made for company in Poland. 
+Commercial project made for company in Poland. 
 Website is done mostly with flex layout and presented in responsive manner.
 
-I also learned for this project Sass syntax and Gulp automatation tool (with compiling scss and browser-sync for auto-reload).
+I also learned for this project Sass syntax and Gulp automatation tool (compiling scss and browser-sync for auto-reload).
 
 #### Page content
 * Webstie is One Page due to "business card" character of its content.
