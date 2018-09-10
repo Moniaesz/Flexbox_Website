@@ -113,11 +113,29 @@ nav ul li {
   flex-direction: column;
   padding-left: 2rem;
   padding-right: 2rem;
-}
+  }
 
 .hero-text {
   padding-top: 15rem;
 }
+
+.arrow {
+
+
+  i {
+    font-size: 1.6rem;
+    position: absolute;
+    // position: relative;
+    bottom: 2em;
+    background: #4f4f52;
+    padding: 1.2%;
+    border-radius: 100%;
+    color:  #E8830C;
+
+  }
+}
+
+
 
 h1, h4 {
   color: #343436;
@@ -138,6 +156,8 @@ h4 {
 }
 
 
+
+
 /*
 * === OFIRMIE SECTION ===
 */
@@ -147,6 +167,7 @@ h4 {
 
   p {
     font-size: 20px;
+    margin-top: 0;
   }
 }
 
@@ -156,7 +177,7 @@ h4 {
 
   hr {
     width: 20%;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
     height: 1.5px;
     background-color: #E8954C;
     border: 0;
@@ -530,6 +551,12 @@ footer {
     width: 100%;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
   }
+  .arrow {
+    i {
+      font-size: 1.4rem;
+      padding: 2.5%;
+    }
+  }
 }
 
 @media screen and (min-width: 875px) and (max-width: 1488px) {
@@ -583,10 +610,10 @@ footer {
     margin-bottom: 4rem;
   }
   .zakres-uslug-content {
-    padding: 2rem 2rem;
+    padding: 8%;
   }
   #zakres-uslug {
-    padding: 4.5rem 2.5rem;
+    padding: 4.5rem 1.5rem;
     ul {
       font-size: 16px;
       line-height: 2rem;
@@ -620,5 +647,10 @@ footer {
   }
   aside img {
     margin-right: 12rem;
+  }
+  .arrow {
+    i {
+      margin-left: -3%;
+    }
   }
 }
