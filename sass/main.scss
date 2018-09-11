@@ -20,6 +20,7 @@ h3 {
 */
 header {
   width: 100%;
+  z-index: 1;
 }
 
 .logo img {
@@ -470,6 +471,9 @@ footer {
   .listauslug li {
     padding-top: 1rem;
   }
+  .hero-text {
+  padding-top: 10rem;
+  }
 }
 
 
@@ -589,7 +593,7 @@ footer {
     font-size: 2rem;
   }
   .hero-text {
-  padding-top: 10rem;
+  padding-top: 5rem;
   }
   .arrow {
     i {
@@ -657,5 +661,10 @@ footer {
   }
   aside img {
     margin-right: 12rem;
+  }
+  .arrow {
+    i {
+      margin-left: -2%;
+    }
   }
 }

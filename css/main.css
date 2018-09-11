@@ -15,7 +15,8 @@ h3 {
 * === NAVIGATION MENU ===
 */
 header {
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
 
 .logo img {
   position: fixed;
@@ -357,7 +358,9 @@ footer {
   h4 {
     font-size: 1.2rem; }
   .listauslug li {
-    padding-top: 1rem; } }
+    padding-top: 1rem; }
+  .hero-text {
+    padding-top: 10rem; } }
 
 @media screen and (max-width: 725px) {
   aside img {
@@ -438,7 +441,7 @@ footer {
   h1 {
     font-size: 2rem; }
   .hero-text {
-    padding-top: 10rem; }
+    padding-top: 5rem; }
   .arrow i {
     margin-left: -5%; }
   #o-firmie {
@@ -483,4 +486,6 @@ footer {
   nav ul {
     margin-left: 30%; }
   aside img {
-    margin-right: 12rem; } }
+    margin-right: 12rem; }
+  .arrow i {
+    margin-left: -2%; } }
