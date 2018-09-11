@@ -98,14 +98,18 @@ nav ul li {
 .hero-text {
   padding-top: 15rem; }
 
-.arrow i {
-  font-size: 1.6rem;
-  position: absolute;
-  bottom: 2em;
-  background: #4f4f52;
-  padding: 1.2%;
-  border-radius: 100%;
-  color: #E8830C; }
+.arrow {
+  text-align: center; }
+  .arrow a {
+    text-align: center; }
+  .arrow i {
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: 2em;
+    background: #4f4f52;
+    padding: 1.2%;
+    border-radius: 100%;
+    color: #E8830C; }
 
 h1, h4 {
   color: #343436;
@@ -435,6 +439,8 @@ footer {
     font-size: 2rem; }
   .hero-text {
     padding-top: 10rem; }
+  .arrow i {
+    margin-left: -5%; }
   #o-firmie {
     padding: 4.5rem 1.3rem;
     text-align: center; }
@@ -477,6 +483,4 @@ footer {
   nav ul {
     margin-left: 30%; }
   aside img {
-    margin-right: 12rem; }
-  .arrow i {
-    margin-left: -3%; } }
+    margin-right: 12rem; } }

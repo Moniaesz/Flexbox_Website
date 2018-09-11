@@ -120,11 +120,16 @@ nav ul li {
 }
 
 .arrow {
+  text-align: center;
 
+  a {
+    text-align: center;
+  }
 
   i {
     font-size: 1.6rem;
     position: absolute;
+    // text-align: center;
     // position: relative;
     bottom: 2em;
     background: #4f4f52;
@@ -586,6 +591,11 @@ footer {
   .hero-text {
   padding-top: 10rem;
   }
+  .arrow {
+    i {
+      margin-left: -5%;
+    }
+  }
   #o-firmie {
   padding: 4.5rem 1.3rem;
   text-align: center;
@@ -647,10 +657,5 @@ footer {
   }
   aside img {
     margin-right: 12rem;
-  }
-  .arrow {
-    i {
-      margin-left: -3%;
-    }
   }
 }
