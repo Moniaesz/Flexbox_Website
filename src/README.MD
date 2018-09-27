@@ -1,9 +1,7 @@
-## Website for Tax Advisory Company  
+## Website for tax advisory company.
 
 Commercial project made for company in Poland. 
 Website is done mostly with flex layout and presented in responsive manner.
-
-I also learned for this project Sass syntax and Gulp automatation tool (compiling scss and browser-sync for auto-reload).
 
 #### Page content
 * Webstie is One Page due to "business card" character of its content.
@@ -21,7 +19,7 @@ You can visit website on https://kancelaria-szypowicz.pl
 * Website will be served on: `http://localhost:3000/`
 
 
-#### DEPENDENCIES
+#### Dependencies
 * Website was created with [Flexbox Layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * Icons by [Fontawesome](https://fontawesome.com/)
 * Images by [Pexels](https://www.pexels.com/)
