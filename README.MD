@@ -4,7 +4,7 @@ Commercial project made for company in Poland.
 Website is done mostly with flex layout and presented in responsive manner.
 
 #### Page content
-* Webstie is One Page due to "business card" character of its content.
+* Website is One Page due to "business card" character of its content.
 * Responsive Web Design is achieved mostly by setting breakpoints and using media queries to change layout.
 * In mobile view I used hamburger menu and its animation in Vanilla JS to avoid using jQuery for one simple task.
 
