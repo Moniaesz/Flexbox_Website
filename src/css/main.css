@@ -109,20 +109,7 @@ nav ul li {
     bottom: 1em;
     padding: 1.2%;
     border-radius: 100%;
-    color: #E8830C;
-    transition: .3s ease;
-    animation-name: arrow-anim;
-    animation-duration: .6s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate; }
-    .arrow i:hover {
-      color: #343436; }
-
-@keyframes arrow-anim {
-  from {
-    bottom: 1.7rem; }
-  to {
-    bottom: 1rem; } }
+    color: #E8830C; }
 
 h1, h4 {
   color: #343436;
@@ -500,4 +487,16 @@ footer {
   aside img {
     margin-right: 12rem; }
   .arrow i {
-    margin-left: -2%; } }
+    margin-left: -2%;
+    transition: .3s ease;
+    animation-name: arrow-anim;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+    .arrow i:hover {
+      color: #343436; }
+  @keyframes arrow-anim {
+    from {
+      bottom: 1.7rem; }
+    to {
+      bottom: 1rem; } } }
