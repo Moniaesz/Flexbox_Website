@@ -18,9 +18,14 @@ h3 {
 /*
 * === NAVIGATION MENU ===
 */
+
 header {
-  width: 100%;
+  position: fixed;
   z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 }
 
 .logo img {
@@ -28,14 +33,6 @@ header {
   float: left;
   margin: 12px 50px;
   height: 70px;
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  background-color: #fff;
-  height: 100px;
-  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 }
 
 nav ul {
@@ -209,6 +206,15 @@ h4 {
     width: 45%;
     display: flex;
     justify-content: center;
+  }
+
+  .img {
+    background-image: url('../assets/ewaSzypowicz_s.jpg');
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   article {
@@ -471,7 +477,7 @@ footer {
 
 
 @media screen and (max-width: 725px) {
-  aside img {
+    #o-doradcy .img {
     width: 14em;
     height: 14em;
   }
@@ -613,7 +619,7 @@ footer {
       width: 100%;
     }
   }
-  aside img {
+  aside .img {
     margin-bottom: 4rem;
   }
   .zakres-uslug-content {
@@ -652,9 +658,9 @@ footer {
   nav ul {
     margin-left: 30%;
   }
-  aside img {
-    margin-right: 12rem;
-  }
+  // aside .img {
+  //   margin-right: 12rem;
+  // }
   .arrow {
     i {
       margin-left: -2%;

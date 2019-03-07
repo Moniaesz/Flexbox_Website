@@ -15,21 +15,18 @@ h3 {
 * === NAVIGATION MENU ===
 */
 header {
+  position: fixed;
+  z-index: 1;
   width: 100%;
-  z-index: 1; }
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); }
 
 .logo img {
   position: fixed;
   float: left;
   margin: 12px 50px;
   height: 70px; }
-
-header {
-  position: fixed;
-  width: 100%;
-  background-color: #fff;
-  height: 100px;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); }
 
 nav ul {
   list-style: none;
@@ -166,6 +163,13 @@ h4 {
     width: 45%;
     display: flex;
     justify-content: center; }
+  #o-doradcy .img {
+    background-image: url("../assets/ewaSzypowicz_s.jpg");
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
   #o-doradcy article {
     width: 55%;
     display: flex;
@@ -362,7 +366,7 @@ footer {
     padding-top: 10rem; } }
 
 @media screen and (max-width: 725px) {
-  aside img {
+  #o-doradcy .img {
     width: 14em;
     height: 14em; }
   #o-doradcy article p {
@@ -457,7 +461,7 @@ footer {
       width: 100%; }
     #o-doradcy aside {
       width: 100%; }
-  aside img {
+  aside .img {
     margin-bottom: 4rem; }
   .zakres-uslug-content {
     padding: 8%; }
@@ -484,8 +488,6 @@ footer {
 @media screen and (min-width: 1247px) {
   nav ul {
     margin-left: 30%; }
-  aside img {
-    margin-right: 12rem; }
   .arrow i {
     margin-left: -2%;
     transition: .3s ease;
